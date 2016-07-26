@@ -4,12 +4,14 @@ is_root() {
     [ $(id -u) -eq 0 ] && return $TRUE || return $FALSE
 }
 
-### Docker
+### Docker Toolbox
 
 docker-machine-start() {
     docker-machine start dev
     eval $(docker-machine env dev)
 }
+
+### Docker Client
 
 docker-cmd() {
     docker run --rm -v $(pwd):/file -w /file $@
