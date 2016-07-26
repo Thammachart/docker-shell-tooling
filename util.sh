@@ -7,8 +7,8 @@ is_root() {
 ### Docker Toolbox
 
 docker-machine-start() {
-    docker-machine start dev
-    eval $(docker-machine env dev)
+    docker-machine start $1
+    eval $(docker-machine env $1)
 }
 
 ### Docker Client
