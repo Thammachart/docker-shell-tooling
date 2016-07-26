@@ -40,7 +40,7 @@ php7() {
 }
 
 phpunit4() {
-    docker-cmd phpunit/phpunit:4.8.5 -v --stop-on-failure --debug
+    docker-cmd phpunit/phpunit:4.8.5 --debug --verbose --stop-on-failure 
 }
 
 composer() {
