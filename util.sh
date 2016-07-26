@@ -58,3 +58,9 @@ python2() {
 python3() {
     docker-cmd -it python:3-alpine $@
 }
+
+### Golang
+
+go() {
+    docker-cmd golang:1-alpine go $@
+}
