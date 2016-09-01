@@ -9,3 +9,4 @@ is_root() {
 . $CURRENT_DIR/php.sh
 . $CURRENT_DIR/python.sh
 . $CURRENT_DIR/golang.sh
+. $CURRENT_DIR/node.sh
