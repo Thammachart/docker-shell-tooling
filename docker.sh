@@ -4,5 +4,5 @@ docker-machine-start() {
 }
 
 docker-cmd() {
-    docker run --rm -v $(pwd):/file -w /file $@
+    docker run --rm -it -v $(pwd):/file -w /file $@
 }

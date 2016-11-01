@@ -10,3 +10,4 @@ is_root() {
 . $CURRENT_DIR/python.sh
 . $CURRENT_DIR/golang.sh
 . $CURRENT_DIR/node.sh
+. $CURRENT_DIR/haskell.sh
