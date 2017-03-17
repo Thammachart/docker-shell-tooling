@@ -11,3 +11,4 @@ is_root() {
 . $CURRENT_DIR/golang.sh
 . $CURRENT_DIR/node.sh
 . $CURRENT_DIR/haskell.sh
+. $CURRENT_DIR/clojure.sh

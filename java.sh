@@ -1,5 +1,5 @@
 java-cmd() {
-    docker-cmd java:8-alpine $@
+    docker-cmd openjdk:8-jdk-alpine $@
 }
 
 java() {
