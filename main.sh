@@ -12,3 +12,4 @@ is_root() {
 . $CURRENT_DIR/node.sh
 . $CURRENT_DIR/haskell.sh
 . $CURRENT_DIR/clojure.sh
+. $CURRENT_DIR/dotnet.sh
