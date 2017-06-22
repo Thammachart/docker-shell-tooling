@@ -1,7 +1,7 @@
 node() {
-    docker-cmd node:6-slim node $@
+    docker-cmd node:8-alpine node $@
 }
 
 npm() {
-    docker-cmd node:6-slim npm $@
+    docker-cmd node:8-alpine npm $@
 }
