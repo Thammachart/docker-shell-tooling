@@ -1,3 +1,3 @@
 dotnet() {
-    docker-cmd microsoft/dotnet:1-sdk dotnet $@
+    docker-cmd microsoft/dotnet:2-sdk dotnet $@
 }
